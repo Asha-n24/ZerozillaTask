@@ -1,0 +1,76 @@
+
+  .typeinput {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 550;
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 0;
+    position: relative;
+  }
+  .icontext {
+    -webkit-clip-path: circle();
+    clip-path: circle();
+    margin: 10px;
+    background-color: #d7dff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    width: 32px;
+    z-index: 1;
+    position: absolute;
+  }
+  .form-control.is-invalid {
+    border-color: #219f86 !important;
+  }
+  .invalid-field {
+    margin-top: 10px !important;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #af0405;
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .form-control-lg {
+    padding: .5rem 3rem;
+    font-size: 1.25rem; 
+}
+.form-control {
+
+  border-radius: 10px;
+  border: none;
+
+  font-family: "Poppins";
+  height: 50px;
+  width: auto;
+  text-overflow: ellipsis !important;
+  background-color: white !important;
+
+}
+
+
+input[placeholder] {
+  position: relative;
+  padding-left: 50px !important;
+  border: 0px;
+  outline: none;
+  
+  width: 100%;
+  font-family: 'Poppins'
+ 
+}
+
+  .valid-field {
+    margin-top: 10px !important;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #af0405;
+    padding-left: 10px;
+    font-size: 13px;
+  }

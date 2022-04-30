@@ -1,0 +1,44 @@
+.card {
+    transition: 0.3s;
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+    cursor: all-scroll;
+    background-color: #fff;
+    /* box-shadow: 6px 5px 12px -5px rgba(136, 136, 136, 0.28); */
+    /* box-shadow: -1px 3px 27px -8px rgba(136, 136, 136, 0.28); */
+    box-shadow: 0px 3px 11px 0px rgba(136, 136, 136, 0.28);
+    margin: 8px;
+    height:45vh;
+  }
+  .cardcontainerpadding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .rowpadding1 {
+    padding-top: 6px;
+  }
+  .imgsource{
+    width: 100%;
+    height: 25vh;
+  }
+  .prodname {
+    font-weight: 700;
+    color: rgba(0,0,0,.5);
+  }
+  .prodcount{
+      color:grey;
+      font-size: 13px;
+  }
+  .offerprice{
+    font-weight: 600;
+    letter-spacing: 1px;
+
+  }
+  .fixprice{
+    color:grey;
+    font-size: 13px;
+  }
+  .rowpadd{
+    padding:3%;
+    height: 12vh;
+  }
